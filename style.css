@@ -1,0 +1,141 @@
+body { 
+    background-color: black; 
+}
+
+#nav { 
+background-color: black; 
+color: white; 
+display: flex; 
+font-size: 14px;
+font-family: sans-serif; 
+justify-content: space-evenly; 
+padding: 20px;
+}
+a{ 
+    text-decoration: none; 
+    color: white; 
+}
+
+#title { 
+    background-color: rgb(6, 2, 72); 
+    color: rgb(255, 255, 255); 
+    padding: 170px;
+    font-size: 70px;
+    font-family: impact; 
+}
+h4 { 
+    font-size: 40px; 
+    font-family: sans-serif; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+
+}
+p{ 
+    font-size: 20px; 
+    font-family: sans-serif; 
+}
+
+#aboutus{ 
+background-color: rgb(6, 2, 72); 
+    padding: 110px; 
+    color: white; 
+    text-align: center; 
+    font-size: 25px; 
+font-family: sans-serif; 
+}
+#musicinfilm { 
+    background-color: black; 
+}
+.slideshow-container { 
+    background-color: black; 
+    display: flex; 
+    justify-content: center;
+    padding: 70px; 
+    position: relative; 
+    margin: auto; 
+}
+
+.items:hover { 
+    background-color: black; 
+    opacity: 0.5; 
+}
+
+#upcomingmovies { 
+    padding: 70px; 
+    background-color:rgb(6, 2, 72);  
+
+
+}
+#images { 
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+@media(width = 430px){ 
+    .slideshow-container{ 
+        padding: 10px; 
+    }
+img { 
+    width: 410px; 
+    height: 205px; 
+}
+#title { 
+    justify-content: center;
+    font-size: 30px; 
+    padding: 80px; 
+}
+}
+
+@media(width = 414px){ 
+    .slideshow-container{ 
+        padding: 10px;
+    }
+    img { 
+        width: 402px; 
+        height: 190px; 
+    }
+    #title { 
+        justify-content: center;
+        font-size: 30px; 
+        padding: 70px
+    } 
+}
+
+@media(width = 768px){ 
+    .slideshow-container{ 
+        padding: 10px;
+    }
+    img { 
+        width: 740px; 
+        height: 320px; 
+    }
+    #title { 
+        justify-content: center;
+        font-size: 39px; 
+        padding: 40px
+    } 
+}
+
+.video{ 
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+
+#color { 
+    color: rgb(139, 182, 133);
+}
+
+#movieedits { 
+    padding: 40px; 
+}
+#edits { 
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+#imagestwo{
+    display: flex; 
+    justify-content: space-evenly; 
+}
