@@ -1,0 +1,292 @@
+body {
+    margin-left: 0; 
+    margin-right: 0; 
+padding: 0; 
+background-color: black; 
+}
+
+#nav { 
+background-color: black; 
+color: white; 
+display: flex; 
+font-size: 14px;
+font-family: sans-serif; 
+justify-content: space-evenly; 
+padding: 20px;
+}
+a{ 
+    text-decoration: none; 
+    color: white; 
+}
+h1{
+    padding: 100px;  
+    font-size: 140px; 
+    font-family: impact; 
+}
+#title { 
+    background-color: rgb(6, 2, 72); 
+    color: rgb(255, 255, 255); 
+    display: flex; 
+
+}
+
+h4 { 
+    font-size: 40px; 
+    font-family: sans-serif; 
+    color: white; 
+    display: flex; 
+    justify-content: center; 
+
+}
+
+#aboutus{ 
+background-color: rgb(6, 2, 72); 
+    padding: 110px; 
+    color: white; 
+    text-align: center; 
+    font-size: 25px; 
+font-family: sans-serif; 
+}
+#musicinfilm { 
+    background-color: rgb(0, 0, 0); 
+}
+.slideshow-container { 
+    background-color: black; 
+    display: flex; 
+    justify-content: center;
+    padding: 40px; 
+    position: relative; 
+    margin: auto; 
+}
+
+.items:hover { 
+    background-color: black; 
+    opacity: 0.5; 
+}
+
+#upcomingmovies { 
+    padding: 70px; 
+    background-color:rgb(6, 2, 72);  
+
+
+}
+.newmovies { 
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.images{ 
+    width: 290px; 
+    height: 400px; 
+}
+
+.musicvideos{ 
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+
+.color { 
+    color: rgb(139, 182, 133);
+}
+
+#movieedits { 
+    padding: 40px; 
+   
+}
+#edits { 
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+#imagestwo{
+    display: flex; 
+    justify-content: space-evenly; 
+}
+
+.video{ 
+    width:590px; 
+    height: 350px; 
+}
+
+.instagram { 
+    width: 40px; 
+}
+
+.slideshowtext { 
+    color: white; 
+    font-family: sans-serif; 
+    font-size: 10px; 
+    display: flex; 
+justify-content: center; 
+}
+
+.mySlides { 
+    width: 1100px; 
+    height: 450; 
+}
+.editvideos { 
+    display: flex; 
+    justify-content: space-evenly; 
+}
+#movieedits{ 
+    background-color: black; 
+}
+
+
+@media(width = 430px){ 
+
+    .slideshow-container{ 
+        padding: 10px; 
+    }
+    #nav{ 
+        font-size: 11.9px; 
+            }
+            h1{ 
+                font-size: 90px; 
+            }
+            .slideshow-container{ 
+                padding: 10px;
+            }
+            .images { 
+                width: 240px; 
+                height: 300px;  
+            }
+            #title { 
+                justify-content: center;
+                font-size: 30px; 
+                padding: 70px
+            } 
+            .musicvideos{
+                display: flex; 
+                flex-direction: column;  
+                margin-left: 40px;   
+            }
+            .video{ 
+                width:320px; 
+            height: 250px; 
+            }
+            .newmovies { 
+                display: flex;
+                flex-direction: column; 
+               margin: auto ;
+            }
+             .editvideos { 
+                display: flex; 
+                flex-direction: column;
+            }
+            .mySlides { 
+                width: 500px; 
+            }
+            .slideshow-container{ 
+                padding: 40px; 
+            }
+            h4{ 
+                font-size: 35px; 
+            
+            }
+        body { 
+            width: 100%; 
+            height: 100%;  
+            margin: 0px; 
+            padding: 0px; 
+            overflow-x: none; 
+        }
+        }
+        
+        @media(width = 768px){ 
+            .slideshow-container{ 
+                padding: 10px;
+            }
+            img { 
+                width: 740px; 
+                height: 320px; 
+            }
+            #title { 
+                justify-content: center;
+                font-size: 39px; 
+                padding: 40px
+            } 
+}
+#title { 
+    justify-content: center;
+    font-size: 30px; 
+    padding: 80px; 
+}
+
+
+
+
+
+
+
+@media(width = 414px){ 
+    #nav{ 
+font-size: 11.9px; 
+    }
+    h1{ 
+        font-size: 90px; 
+    }
+    .slideshow-container{ 
+        padding: 10px;
+    }
+    .images { 
+        width: 240px; 
+        height: 300px;  
+    }
+    #title { 
+        justify-content: center;
+        font-size: 30px; 
+        padding: 70px
+    } 
+    .musicvideos{
+        display: flex; 
+        flex-direction: column;  
+        margin-left: 40px;   
+    }
+    .video{ 
+        width:320px; 
+    height: 250px; 
+    }
+    .newmovies { 
+        display: flex;
+        flex-direction: column; 
+       margin: auto ;
+    }
+     .editvideos { 
+        display: flex; 
+        flex-direction: column;
+    }
+    .mySlides { 
+        width: 500px; 
+    }
+    .slideshow-container{ 
+        padding: 40px; 
+    }
+    h4{ 
+        font-size: 35px; 
+    
+    }
+body { 
+    width: 100%; 
+    height: 100%;  
+    margin: 0px; 
+    padding: 0px; 
+    overflow-x: none; 
+}
+}
+
+/* @media(width = 768px){ 
+    .slideshow-container{ 
+        padding: 10px;
+    }
+    img { 
+        width: 740px; 
+        height: 320px; 
+    }
+    #title { 
+        justify-content: center;
+        font-size: 39px; 
+        padding: 40px
+    } 
+} */
