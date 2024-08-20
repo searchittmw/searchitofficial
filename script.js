@@ -28,7 +28,10 @@ let musicInFilmVideosArray =[
 "https://www.youtube.com/embed/j9Vit2vq22M?si=tGyZw1K1n7a5cncN", 
 "https://www.youtube.com/embed/OXQ8oI6B6T0?si=NeNoLF_BYJnRD062",
 "https://www.youtube.com/embed/26NOGYsTWOI?si=U4GSYAJdXz7MW1CX" , //maneater 
-"https://www.youtube.com/embed/KYc5H7VvZbc?si=VPNvwjjPcbgTdw60" , //tiana 
+"https://www.youtube.com/embed/A_HjMIjzyMU?si=nVeDbNrX_H1-uvP_" , // i need ahero 
+"https://www.youtube.com/embed/pyMU8O2B2Vs?si=b-EXv54dmixTDflt" , // good moring 
+"https://www.youtube.com/embed/1lDc2Cce7fc?si=l3Kpr_H3KgfV8nIP" , // nothing you can take from me
+
 ]; 
 
 let trailerArray = [
@@ -50,48 +53,48 @@ let trailerArray = [
 "https://www.youtube.com/embed/hCBWOfCgRh4?si=ix2kFf3yIsSIJSTw", 
 "https://www.youtube.com/embed/c_7i57oQZ0g?si=oXyV9-88Bpw7qLEY", // bottoms
 "https://www.youtube.com/embed/lpnW8atCkkg?si=QzHeALiHmYHIp169" , // supw eight
-"https://www.youtube.com/embed/17ywQS6XO-M?si=hh1hO-m6n8693vOX" , // harry potter
 "https://www.youtube.com/embed/bLvqoHBptjg?si=OYBsyfxMkzq_DhsQ" , // forest gump
 "https://www.youtube.com/embed/TLnQXsKn5-E?si=9XmxOJDy2Ui2r6QI" , // war of the worlds 
 "https://www.youtube.com/embed/CH_OHepiHJw?si=JQjeJDkOERuOR21w", // harriet 
 "https://www.youtube.com/embed/7BWWWQzTpNU?si=1W-lmgeC4C9fMKaP" , // Passengers
 "https://www.youtube.com/embed/Pj0wz7zu3Ms?si=8qCfeUSvIm6YjkhT" , // rednotice
 "https://www.youtube.com/embed/4OzaexEqDa8?si=jF1s-mLckqZnFFva" , // quiz lady 
-
-
 ]; 
 
 let upComingTrailerArray = [ 
  "https://www.youtube.com/embed/_OKAwz2MsJs?si=kXrW6ZNJV5V9YZhO", // Joker: Foilie a Duex
  "https://www.youtube.com/embed/As-vKW4ZboU?si=elJixJvYoPKKp-XN" , // Beetle Juice Beetle Juice
- "https://www.youtube.com/embed/r-GQvSc5ZGw?si=tTTljgAJugrfC0Z3", // It ends with us 
+ 
  "https://www.youtube.com/embed/qkgkUCqEum4?si=SQWK0TMMqT5eaCrZ", // Moana two
  "https://www.youtube.com/embed/MH02yagHaNw?si=ew5OREilxKD36wGs", // we live in time
  "https://www.youtube.com/embed/5jXLBJguAl4?si=TNP3uxio664F_jdu" , // the good half 
-
+ 
  "https://www.youtube.com/embed/I_id-SkGU2k?si=k4Ej3mba08FM2TUo" , // here 
+ "https://www.youtube.com/embed/TbiPcMCz0Ek?si=w8LMITOlzsuVl5RL" ,// snow white
+ "https://www.youtube.com/embed/7Bc6trBc1kc?si=PxPRaf-oV3byXAX-" , // piece by piece
+ "https://www.youtube.com/embed/67vbA5ZJdKQ?si=VZfgRTZEt_W5KEFh" , // the wild robot
 
-]
+
+
+]; 
 
 let MovieEditArray = [
     "https://www.youtube.com/embed/iiRFOqEiMLI?si=jXDZmgMpZ1sZ3hzx", // I just Want to Dance 
     "https://www.youtube.com/embed/_aXM8ukJSNg?si=Q51d0R_QTfsO8TI_" ,// Gwen Stacy (amazing spide man)
     "https://www.youtube.com/embed/FD1hqvhIVXY?si=vOt2AGI5KK93FTZu", //inersetller
     "https://www.youtube.com/embed/KQT32vW61eI?si=a8vRFZvOwov4yIVV" , //call my your name
-"https://www.youtube.com/embed/M5VXCixTdEg?si=pZTXeM5N9kceG06k" , //smile 
 "https://www.youtube.com/embed/CFG8DtIt7X0?si=D4uB2T0ZnH3ZXFc5", //cars
-"https://www.youtube.com/embed/SOnY2xlu80M?si=JywEDTys2lOmzN9m",  // we are infinite 
-"https://www.youtube.com/embed/SOnY2xlu80M?si=JywEDTys2lOmzN9m", // marvel 
-"https://www.youtube.com/embed/O-HIpasERHM?si=vxxIqCc2lKY2knYO" ,// hack ridge 
-"https://www.youtube.com/embed/ApyTD7whgL4?si=R3dzUUmJxq61Wk64", // zootopi
-"https://www.youtube.com/embed/m1EAKIec6UU?si=L5s89UDSqNwcQVfM" , //fight club let it go 
-"https://www.youtube.com/embed/VmumvWXme7I?si=csM33W0ZocYUtM0H" , // nothing new 
-"https://www.youtube.com/embed/bXDYjqDunrE?si=DAnpsA1BO_Qv8nlK" , // mad mx furiosa
-"https://www.youtube.com/embed/Ak1kICKOm0w?si=8uqHMiL2WfQQCc4i" , // mad max
+"https://www.youtube.com/embed/CFJNHhA-vWQ?si=xsWB8mH7zR4pRU3F" , // arrival 
+"https://www.youtube.com/embed/yqjPI_m1ulA?si=RBk6qqLaQG5rC4-H" , // oppenheimer
+"https://www.youtube.com/embed/d85vBCq_E38?si=akEUMyazBdisHNim" , // blade runner
+"https://www.youtube.com/embed/TMhKNAyebzA?si=ROFkoVCULGTOHLa6" , // katniss 
+"https://www.youtube.com/embed/GrFJ7OLQrLE?si=gb9f7lY3O6kvoE-j" , // harry potter
+"https://www.youtube.com/embed/HThvXXj3Iqc?si=JtvbILNHbRsVvA-_" , // grown ups
+"https://www.youtube.com/embed/vMbtSva7oLE?si=NfBukLstdrk-uD9B" , // ted 
 ]
 
 let spotifySongArray = [
-    "https://open.spotify.com/embed/track/5fBcRH4CnYTaFMQtM0JtSl?utm_source=generator&theme=0", //coco
+
      "https://open.spotify.com/embed/track/17cia5k4BpGVlyEfqrFH50?utm_source=generator&theme=0" , //cant catch me now
      "https://open.spotify.com/embed/track/44EkzAU92xwm30YpD4p31i?utm_source=generator", // the amazing spider man 
      "https://open.spotify.com/embed/track/6i0V12jOa3mr6uu4WYhUBr?utm_source=generator", // heathens 
@@ -108,6 +111,8 @@ let spotifySongArray = [
 "https://open.spotify.com/embed/track/3GCdLUSnKSMJhs4Tj6CV3s?utm_source=generator", // all the stars 
 "https://open.spotify.com/embed/track/5c9qm0bMYawSyRNUTmUMs5?utm_source=generator", // mystery of love 
 "https://open.spotify.com/embed/track/5USZyz6dnBEn1oLsKcAKQy?utm_source=generator", // shrek 
+"https://open.spotify.com/embed/track/45aBsnKRWUzhwbcqOJLwfe?utm_source=generator", // this is me 
+"https://open.spotify.com/embed/track/4f4HLo6L9CJNhD4mEYxrCL?utm_source=generator" , // pure imagination 
 ]
  
 
@@ -161,4 +166,5 @@ changeButtonFive.onclick = function(){
 
     firstSpotifySong.src = randSpotifySong
 }
+
 
