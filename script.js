@@ -31,6 +31,10 @@ let musicInFilmVideosArray =[
 "https://www.youtube.com/embed/A_HjMIjzyMU?si=nVeDbNrX_H1-uvP_" , // i need ahero 
 "https://www.youtube.com/embed/pyMU8O2B2Vs?si=b-EXv54dmixTDflt" , // good moring 
 "https://www.youtube.com/embed/1lDc2Cce7fc?si=l3Kpr_H3KgfV8nIP" , // nothing you can take from me
+"https://www.youtube.com/embed/Qk9tnC-_y70?si=XrSR6SbcEVr0Rk3d" , // rriff off pitch perfect two 
+"https://www.youtube.com/embed/ThwgavWbVCc?si=pJxM7XcTD7K3jXfA" , // final performannce pitch perfect two
+    "https://www.youtube.com/embed/s_4soQo6E8I?si=eFng3IdYREjf8WDV" ,// final performance pitch perfect one
+    "https://www.youtube.com/embed/hGdz2rMbTIM?si=JGyXcnxRJwRZ_FlI" , // riff off pitch perfect one
 
 ]; 
 
