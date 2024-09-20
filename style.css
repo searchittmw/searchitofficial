@@ -260,7 +260,7 @@ padding: 40px;
         height: 900px; 
     }
     #randMusicInFilm { 
-        height: 950px; 
+        height: 900px; 
     }
     #aboutUs { 
         height: 900px; 
@@ -472,7 +472,7 @@ padding: 40px;
         width: 50%; 
     }
     #aboutUs{ 
-        height:780px; 
+        height:880px; 
     }
    #randMovieEdit{ 
     height: 1450px; 
@@ -492,7 +492,7 @@ padding: 40px;
    }
 
    #nav { 
-    font-size: 20px; 
+    font-size: 14px; 
    }
 
    h1 { 
