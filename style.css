@@ -260,13 +260,13 @@ padding: 40px;
         height: 900px; 
     }
     #randMusicInFilm { 
-        height: 900px; 
+        height: 950px; 
     }
     #aboutUs { 
         height: 900px; 
     }
     #nav{ 
-        font-size: 20px; 
+        font-size: 14px; 
     }
     .flex { 
         display: flex; 
