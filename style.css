@@ -1,9 +1,10 @@
 
-body { 
-    margin: 0px; 
+ body { 
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
     padding: 0px; 
-    background-color:rgb(6, 2, 72);
-    overflow: 0;
+    background-color:rgb(6, 2, 72);  
 }
 
 #nav {
@@ -16,6 +17,8 @@ body {
     display: flex; 
     justify-content: space-between; 
     text-align: center; 
+    margin-right: 0px; 
+    
     
 
 }
@@ -24,7 +27,8 @@ body {
     font-weight: bolder ; 
     font-size: 35px; 
     color: whitesmoke; 
-margin-left: 20px; 
+margin-left: 20px;
+
 
 }
 #options{ 
@@ -46,7 +50,8 @@ padding: 10px;
     background-size: cover; 
     display: flex; 
     align-items: center; 
-    padding: 40px; 
+    padding: 40px;
+    margin-right: 0px; 
 }
 
 h1{ 
@@ -70,9 +75,13 @@ h1{
     font-family: sans-serif; 
     text-align: center; 
     align-items: center; 
-    margin-right: 20px; 
+    margin-right: 0px; 
     padding: 40px; 
     text-decoration: none;
+}
+.paragraph { 
+    padding: 40px; 
+    font-size: 20px; 
 }
 h4{ 
     align-items: center; 
@@ -83,9 +92,9 @@ h4{
 }
 
 p { 
-    font-size:20px; 
-    margin-right: 90px; 
-    margin-left: 90px; 
+    color: white; 
+    /* margin-right: 90px; 
+    margin-left: 90px;  */
 }
 
 .video { 
@@ -109,11 +118,16 @@ p {
     height: 300px; 
 
 }
-#ad { 
-    background-color: rgb(255, 255, 255);  
-    text-align: center; 
-    border-radius: 29px;
+
+.sizeEdit { 
+    width: 320px; 
+    height: 420px; 
 }
+/* #ad { 
+    background-color: rgb(6, 2, 72);  
+    text-align: center; 
+    border-radius: 29px; */
+/*} */
 
 .sizetwo {
     width: 200px; 
@@ -126,6 +140,7 @@ p {
     height: 700px; 
     align-items: center; 
     padding: 40px; 
+    margin-right: 0px; 
     
 
 }
@@ -163,7 +178,8 @@ p {
     width: max(100%); 
     height: 650px; 
     background-color: rgb(6, 2, 72); 
-    padding: 40px; 
+    padding: 40px;
+    margin-right: 0px; 
 }
 
 button { 
@@ -219,6 +235,25 @@ h5 {
     height: 1100px; 
 }
 
+.squaresize { 
+    height: 400px; 
+    width: 400px; 
+}
+
+#freeOnYoutube { 
+padding: 40px;  
+    width: 100%; 
+    height: 650px; 
+    margin-right: 20px; 
+    align-items: center; 
+    margin-right: 0px; 
+}
+
+#username { 
+    font-size: 11px; ;
+}
+
+
 @media (width=430px) {
     
     #randTrailer { 
@@ -251,6 +286,7 @@ h5 {
     width: 400px;
     height: 200px;
 }
+
 }
 
 /* @media (width=414px){ 
@@ -423,7 +459,6 @@ h5 {
     font-size: 100px; 
    }
 } */
-
 @media (max-width: 1030px) { 
     p{ 
         font-size: 120%; 
@@ -440,7 +475,7 @@ h5 {
         height:780px; 
     }
    #randMovieEdit{ 
-    height: 1000px; 
+    height: 1450px; 
 
    }
 
@@ -457,7 +492,7 @@ h5 {
    }
 
    #nav { 
-    font-size: 14px; 
+    font-size: 20px; 
    }
 
    h1 { 
