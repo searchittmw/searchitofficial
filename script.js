@@ -122,6 +122,10 @@ let spotifySongArray = [
 "https://open.spotify.com/embed/track/5USZyz6dnBEn1oLsKcAKQy?utm_source=generator", // shrek 
 "https://open.spotify.com/embed/track/45aBsnKRWUzhwbcqOJLwfe?utm_source=generator", // this is me 
 "https://open.spotify.com/embed/track/4f4HLo6L9CJNhD4mEYxrCL?utm_source=generator" , // pure imagination 
+"https://open.spotify.com/embed/track/4ylWMuGbMXNDgDd8lErEle?utm_source=generator", // greatest showman
+"https://open.spotify.com/embed/track/0Gl5s8IhMmQE5YQwM8Qx1J?utm_source=generator", // never enough
+"https://open.spotify.com/embed/track/74wySERHHxB8Ul9A0CNBla?utm_source=generator", /// lay all your love on me momma mia
+"https://open.spotify.com/embed/track/12j5ByuhjK6vsb0vJS1cwM?utm_source=generator" , // desafinado
 ]
  
 
