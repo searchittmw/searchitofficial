@@ -241,7 +241,7 @@ padding: 40px;
 }
 
 
-@media (width=430px) {
+/* @media (width=430px) {
    
    #randTrailer { 
        height: 900px; 
@@ -253,31 +253,25 @@ padding: 40px;
        height: 900px; 
    }
    #nav{ 
-       font-size: 20px; 
-   }
-   .flex { 
-       display: flex; 
-       flex-direction: column;
-   }
-   .paragraph { 
-       font-size: 20px; 
-   }
-   .video { 
-       width: 400px; 
-       height: 250px; 
-   }
-#logo { 
-   font-size: 30px; 
-}
-#homepagevideo { 
-   width: 400px;
-   height: 200px;
-}
-
-}
+       font-size */
 
 
 @media (max-width: 1030px) { 
+   h1{
+       font-size: 100px;
+   }
+   .paragraph {
+       font-size: 14px; 
+       width: 320px;
+   }
+   .sizeone{
+       width: 340px;
+       height: 220px;
+   }
+   .size { 
+       width: 340px; 
+       height: 220px; 
+   }
    p{ 
        font-size: 120%; 
    }
@@ -290,50 +284,22 @@ padding: 40px;
        width: 50%; 
    }
    #aboutUs{ 
-       height:880px; 
+       height:620px; 
    }
   #randMovieEdit{ 
    height: 1450px; 
 
   }
-
-  #randTrailer { 
-   height: 1200px; 
-  }
-
-  #randMusicInFilm { 
-   height: 880px; 
-  }
-
-  #upcomingFilms { 
-   height: 3500px; 
-  }
-
-  #nav { 
-   font-size: 10px; 
-  }
-
-  h1 { 
-   font-size: 100px; 
-  }
-
-  #logo { 
-   font-size: 10px; 
-  }
-  
 }
 
-@media (max-width: 530px) {
+  @media (max-width: 530px) {
    h1{
-       font-size: 98px; 
+       font-size: 80px; 
    }
    p{
        font-size: 14px; 
    }
-   .size {
-       width: 400px; 
-       height: 250px; 
-   }
+ 
    .card{ 
        width: 80%; 
    }
@@ -341,3 +307,4 @@ padding: 40px;
        font-size: 10px;
    }
 }
+
