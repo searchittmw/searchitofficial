@@ -2,7 +2,8 @@ let changeButton = document.getElementById("change_button");
 let changeButtonTwo = document.getElementById("change_buttontwo");
 let changeButtonThree = document.getElementById("change_buttonthree"); 
 let changeButtonFour = document.getElementById("change_buttonfour");
-let changeButtonFive = document.getElementById("change_buttonfive"); 
+let changeButtonFive = document.getElementById("change_buttonfive");
+let changeButtonSeven = document.getElementById("change_buttonseven");
 
 
 let videoDiv = document.getElementById ("video_div");
@@ -10,13 +11,21 @@ let trailerDiv = document.getElementById ("trailer_div");
 let upComingTrailerDiv = document.getElementById ("upComingTrailer_div");
 let movieEditDiv = document.getElementById ("movieEdit_div");
 let spotifySongDiv = document.getElementById("spotifySong_div"); 
-
+let rectangleEditDiv = document.getElementById("rectangleEdit_div");
 
 let firstVideo = videoDiv.children[0]; 
 let firstTrailer = trailerDiv.children[0]; 
 let firstUpcomingTrailer = upComingTrailerDiv.children[0]; 
 let firstMovieEdit = movieEditDiv.children[0]; 
-let firstSpotifySong = spotifySongDiv.children[0]; 
+let firstSpotifySong = spotifySongDiv.children[0];
+let firstRectangleEdit = rectangleEditDiv.children[0];
+
+let rectangleEditArray = [
+    "itonya.mp4",
+    "mencrytoo.mp4",
+    "ilovedancing.mp4",
+    "karensmith.mp4",
+]
 
 let musicInFilmVideosArray =[
     "https://www.youtube.com/embed/92w5ozZgzG0?si=7ZS0fg_8adTg3HFs",
@@ -31,10 +40,6 @@ let musicInFilmVideosArray =[
 "https://www.youtube.com/embed/A_HjMIjzyMU?si=nVeDbNrX_H1-uvP_" , // i need ahero 
 "https://www.youtube.com/embed/pyMU8O2B2Vs?si=b-EXv54dmixTDflt" , // good moring 
 "https://www.youtube.com/embed/1lDc2Cce7fc?si=l3Kpr_H3KgfV8nIP" , // nothing you can take from me
-"https://www.youtube.com/embed/Qk9tnC-_y70?si=XrSR6SbcEVr0Rk3d" , // rriff off pitch perfect two 
-"https://www.youtube.com/embed/ThwgavWbVCc?si=pJxM7XcTD7K3jXfA" , // final performannce pitch perfect two
-   
-    "https://www.youtube.com/embed/hGdz2rMbTIM?si=JGyXcnxRJwRZ_FlI" , // riff off pitch perfect one
 
 ]; 
 
@@ -120,7 +125,12 @@ let spotifySongArray = [
 ]
  
 
-
+changeButtonSeven.onclick = function(){
+    let firstRectangleEdit = rectangleEditDiv.children[0];
+    let randInt = Math.floor(Math.random()* rectangleEditArray.length)
+    let randRectangleEdit = rectangleEditArray[randInt];
+    firstRectangleEdit.src = randRectangleEdit
+}
 changeButtonThree.onclick = function(){ 
     let firstupComingTrailer = upComingTrailerDiv.children[0]; 
 
