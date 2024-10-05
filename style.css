@@ -266,7 +266,7 @@ padding: 40px;
    }
    .sizeone{
        width: 340px;
-       height: 220px;
+       height: 190px;
    }
    .size { 
        width: 340px; 
@@ -284,17 +284,26 @@ padding: 40px;
        width: 50%; 
    }
    #aboutUs{ 
-       height:620px; 
+       height:670px; 
    }
   #randMovieEdit{ 
    height: 1450px; 
 
   }
+  #randTrailer { 
+   height: 1200px; 
+}
+#randMusicInFilm { 
+   height: 1100px; 
+}
+#upcomingFilms {
+   height: 2200px;
+}
 }
 
   @media (max-width: 530px) {
    h1{
-       font-size: 80px; 
+       font-size: 50px; 
    }
    p{
        font-size: 14px; 
@@ -304,7 +313,7 @@ padding: 40px;
        width: 80%; 
    }
    #nav { 
-       font-size: 10px;
+       font-size: 9px;
    }
 }
 
