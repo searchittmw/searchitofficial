@@ -4,6 +4,12 @@ let changeButtonThree = document.getElementById("change_buttonthree");
 let changeButtonFour = document.getElementById("change_buttonfour");
 let changeButtonFive = document.getElementById("change_buttonfive");
 let changeButtonSeven = document.getElementById("change_buttonseven");
+let changeButtonEight = document.getElementById("change_buttoneight");
+let changeButtonNine = document.getElementById("change_buttonnine");
+let changeButtonTen = document.getElementById("change_buttonten");
+let changeButtonEleven = document.getElementById("change_buttoneleven");
+let changeButtonTwelve = document.getElementById("change_buttontwelve");
+let changeButtonThirteenth = document.getElementById("change_buttonthirteenth");
 
 
 let videoDiv = document.getElementById ("video_div");
@@ -12,6 +18,12 @@ let upComingTrailerDiv = document.getElementById ("upComingTrailer_div");
 let movieEditDiv = document.getElementById ("movieEdit_div");
 let spotifySongDiv = document.getElementById("spotifySong_div"); 
 let rectangleEditDiv = document.getElementById("rectangleEdit_div");
+let actionTrailerDiv = document.getElementById("actionTrailer_div");
+let thrillerTrailerDiv = document.getElementById("thrillerTrailer_div");
+let comedyTrailerDiv = document.getElementById("comedyTrailer_div");
+let dramaTrailerDiv = document.getElementById("dramaTrailer_div");
+let familyTrailerDiv = document.getElementById("familyTrailer_div");
+let adventureTrailerDiv = document.getElementById("adventureTrailer_div");
 
 let firstVideo = videoDiv.children[0]; 
 let firstTrailer = trailerDiv.children[0]; 
@@ -19,6 +31,81 @@ let firstUpcomingTrailer = upComingTrailerDiv.children[0];
 let firstMovieEdit = movieEditDiv.children[0]; 
 let firstSpotifySong = spotifySongDiv.children[0];
 let firstRectangleEdit = rectangleEditDiv.children[0];
+let firstActionTrailer = actionTrailerDiv.children[0];
+let firstThrillerTrailer = thrillerTrailerDiv.children[0];
+let firstComedyTrailer = comedyTrailerDiv.children[0];
+let fristDramaTrailer = dramaTrailerDiv.children[0];
+let firstFamilyTrailer = familyTrailerDiv.children[0];
+let firstAdventureTrailer = adventureTrailerDiv.children[0];
+
+let adventureTrailerArray =[
+"https://www.youtube.com/embed/EAzGXqJSDJ8?si=Oq10jl7uDy2iVb-4", // catching fire
+"https://www.youtube.com/embed/CbX_SIz_9fk?si=l2b7gjRVCfL0fAsa", // transformers
+"https://www.youtube.com/embed/LLAaW1EgyY8?si=rC8ZzK6_OzuDc7hh", // harry potter
+"https://www.youtube.com/embed/fAIX12F6958?si=rAqNw6M7Kcc91saK", // bumblebee
+"https://www.youtube.com/embed/RDE6Uz73A7g?si=K_KGSkmCO9P6ipcE", // hungergames songbirds and snakes
+"https://www.youtube.com/embed/sutgWjz10sM?si=MIPVBeAO8KK343V3", // divergent
+"https://www.youtube.com/embed/t-0XuYxh67w?si=EIqAy0iznnS8wkRT", // super eight
+"https://www.youtube.com/embed/fSpZU7KAGfk?si=jFjcqyqPUQB3stHz", // the mummy
+
+]
+
+let familyTrailerArray = [
+"https://www.youtube.com/embed/k98Afd7Nf3Y?si=P28FD1Y2DRzw_qPR", // marcel the shell with shoes on
+"https://www.youtube.com/embed/26R6JVJ6KOw?si=H__3RixgGwk82L0P", // instant family
+"https://www.youtube.com/embed/5_EVHeNEIJY?si=_yoX2xCOLDhLdvGT", // singing in the rain
+"https://www.youtube.com/embed/oIPq9Kp-9A0?si=QRvrD5kpuzFvcaW4", // cat in the hat
+"https://www.youtube.com/embed/ooJJX3R42WM?si=4gWY1EbTjjPqJ08g", // shrek
+"https://www.youtube.com/embed/E6sHWQcCUsQ?si=56wPdpdMGOKFZfQy", // barbie
+"https://www.youtube.com/embed/otNh9bTjXWg?si=DI-Yhf13YI9PSmnx", // wonka
+"https://www.youtube.com/embed/p6JAQ2aoXm0?si=Q0uT4uo0jlP1PgiO", // charlie and the choclate factory
+]
+
+let dramaTrailerArray = [
+"https://www.youtube.com/embed/Gtl-6RCOl84?si=RcBc_LyEuOdGygVJ", // the Fallout
+// "https://www.youtube.com/embed/AXEK7y1BuNQ?si=DeCXJtZBRL9Zdunc", // challengers
+"https://www.youtube.com/embed/bLvqoHBptjg?si=OYBsyfxMkzq_DhsQ", // forest gump
+"https://www.youtube.com/embed/7BWWWQzTpNU?si=1W-lmgeC4C9fMKaP", // passengers
+"https://www.youtube.com/embed/ne6p6MfLBxc?si=vb8SjylGKZJbnclp", // her
+
+]
+
+let comedyTrailerArray = [
+"https://www.youtube.com/embed/4OzaexEqDa8?si=jF1s-mLckqZnFFva" , // quiz lady
+"https://www.youtube.com/embed/c_7i57oQZ0g?si=oXyV9-88Bpw7qLEY", // bottoms
+// "https://www.youtube.com/embed/8_nv0q5ztYE?si=JM6Ronhbn3HJyWxV", // pitch perfect
+"https://www.youtube.com/embed/qmxMAdV6s4U?si=KS-LCT05vk6mU4Bi", // game night
+"https://www.youtube.com/embed/P15S6ND8kbQ?si=5LKvfniw3jj9cWuW", // no hard feelings
+"https://www.youtube.com/embed/7wd5KEaOtm4?si=f09WRv1i4H3tdmlF", // scott pilgrim vs the world
+"https://www.youtube.com/embed/VjGJm3wV5-I?si=EzDrYMeEjgxB0YEL", // booksmart
+"https://www.youtube.com/embed/_j5hwooOHVE?si=_GBanSjGAkGtdOdX", // the hustle
+
+
+]
+
+let thrillerTrailerArray = [
+"https://www.youtube.com/embed/XJMuhwVlca4?si=fu0_1c5RyFJMuA2T", // furiosa
+"https://www.youtube.com/embed/7sULyUPHAOA?si=oEBGIcT4OSsIV56r", // amsterdam
+"https://www.youtube.com/embed/KBiOF3y1W0Y?si=uori8N4seOljJGPS", // drive
+"https://www.youtube.com/embed/zpmAR4oRUXg?si=w4jisXwHnboUf_6e", // red Sparrow
+"https://www.youtube.com/embed/sk37tj2OdA4?si=SSEePmdVZGc5wIUG", // dont worry darling
+"https://www.youtube.com/embed/8hP9D6kZseM?si=F8KQkcqzQn2ZTRX_", // inception
+"https://www.youtube.com/embed/C_uTkUGcHv4?si=wewOoFLmbuKUWlCW", // the menu
+"https://www.youtube.com/embed/tB9WUIv9KH8?si=xMjRwstT-0zS1mLD", // last night in soho
+
+]
+let actionTrailerArray = [
+    "https://www.youtube.com/embed/aDyQxtg0V2w?si=xJDg1-h-bPbxji3o", // Civil War
+    "https://www.youtube.com/embed/gCcx85zbxz4?si=zs3F1DSOwEZ71Mg4", // Blade Runner
+    // "https://www.youtube.com/embed/2LqzF5WauAw?si=H6UA58O4wXjsRPzh", // Interstellar
+    "https://www.youtube.com/embed/_PZpmTj1Q8Q?si=g_p1lQA07q1drnzr", // The dark night
+    "https://www.youtube.com/embed/XtFI7SNtVpY?si=xD0blk9AE_qL2FCE", // kingdom of the planet of the apes
+    "https://www.youtube.com/embed/3cxixDgHUYw?si=aHTgmyoWTCfmHfQI", //justice league
+    "https://www.youtube.com/embed/x_me3xsvDgk?si=3D6Nwhg9pgq5VqUN", // enternals
+    "https://www.youtube.com/embed/KVu3gS7iJu4?si=_2JcYRMyiHFscWGO", // man of steel
+
+
+]
 
 let rectangleEditArray = [
     "itonya.mp4",
@@ -41,7 +128,7 @@ let musicInFilmVideosArray =[
 "https://www.youtube.com/embed/pyMU8O2B2Vs?si=b-EXv54dmixTDflt" , // good moring 
 "https://www.youtube.com/embed/1lDc2Cce7fc?si=l3Kpr_H3KgfV8nIP" , // nothing you can take from me
 
-]; 
+]
 
 let trailerArray = [
     "https://www.youtube.com/embed/zrMnGDzmyI0?si=4vur7z0dIQ506UBm", 
@@ -62,12 +149,9 @@ let trailerArray = [
 "https://www.youtube.com/embed/hCBWOfCgRh4?si=ix2kFf3yIsSIJSTw", 
 "https://www.youtube.com/embed/c_7i57oQZ0g?si=oXyV9-88Bpw7qLEY", // bottoms
 "https://www.youtube.com/embed/lpnW8atCkkg?si=QzHeALiHmYHIp169" , // supw eight
-"https://www.youtube.com/embed/bLvqoHBptjg?si=OYBsyfxMkzq_DhsQ" , // forest gump
 "https://www.youtube.com/embed/TLnQXsKn5-E?si=9XmxOJDy2Ui2r6QI" , // war of the worlds 
 "https://www.youtube.com/embed/CH_OHepiHJw?si=JQjeJDkOERuOR21w", // harriet 
-"https://www.youtube.com/embed/7BWWWQzTpNU?si=1W-lmgeC4C9fMKaP" , // Passengers
 "https://www.youtube.com/embed/Pj0wz7zu3Ms?si=8qCfeUSvIm6YjkhT" , // rednotice
-"https://www.youtube.com/embed/4OzaexEqDa8?si=jF1s-mLckqZnFFva" , // quiz lady 
 ]; 
 
 let upComingTrailerArray = [ 
@@ -103,7 +187,6 @@ let MovieEditArray = [
 ]
 
 let spotifySongArray = [
-
      "https://open.spotify.com/embed/track/17cia5k4BpGVlyEfqrFH50?utm_source=generator&theme=0" , //cant catch me now
      "https://open.spotify.com/embed/track/44EkzAU92xwm30YpD4p31i?utm_source=generator", // the amazing spider man 
      "https://open.spotify.com/embed/track/6i0V12jOa3mr6uu4WYhUBr?utm_source=generator", // heathens 
@@ -127,7 +210,47 @@ let spotifySongArray = [
 "https://open.spotify.com/embed/track/74wySERHHxB8Ul9A0CNBla?utm_source=generator", /// lay all your love on me momma mia
 "https://open.spotify.com/embed/track/12j5ByuhjK6vsb0vJS1cwM?utm_source=generator" , // desafinado
 ]
+
+changeButtonThirteenth.onclick = function(){
+    let firstAdventureTrailer = adventureTrailerDiv.children[0];
+    let rantInt = Math.floor(Math.random()* adventureTrailerArray.length);
+    let randAdventureTrailer = adventureTrailerArray[rantInt];
+    firstAdventureTrailer.src = randAdventureTrailer
+}
+
+changeButtonTwelve.onclick = function() {
+    let firstFamilyTrailer = familyTrailerDiv.children[0];
+    let randInt = Math.floor(Math.random()* familyTrailerArray.length);
+    let randFamilyTrailer = familyTrailerArray[randInt];
+    firstFamilyTrailer.src = randFamilyTrailer
+}
+
+changeButtonEleven.onclick = function() {
+    let firstDramaTrailer = dramaTrailerDiv.children[0];
+    let randInt = Math.floor(Math.random()* dramaTrailerArray.length);
+    let randDramaTrailer = dramaTrailerArray[randInt];
+    firstDramaTrailer.src = randDramaTrailer
+}
  
+changeButtonTen.onclick = function(){
+    let firstComedyTrailer = comedyTrailerDiv.children[0];
+    let randInt = Math.floor(Math.random()* comedyTrailerArray.length);
+    let randComedyTrailer = comedyTrailerArray[randInt];
+    firstComedyTrailer.src = randComedyTrailer
+}
+changeButtonNine.onclick = function(){
+    let firstThrillerTrailer = thrillerTrailerDiv.children[0];
+    let randInt = Math.floor(Math.random()* thrillerTrailerArray.length)
+    let randThrillerTrailer = thrillerTrailerArray[randInt];
+    firstThrillerTrailer.src = randThrillerTrailer
+}
+
+changeButtonEight.onclick = function(){
+    let firstActionTrailer = actionTrailerDiv.children[0];
+    let randInt = Math.floor(Math.random()* actionTrailerArray.length)
+    let randActionTrailer = actionTrailerArray[randInt];
+    firstActionTrailer.src = randActionTrailer
+}
 
 changeButtonSeven.onclick = function(){
     let firstRectangleEdit = rectangleEditDiv.children[0];
@@ -142,7 +265,7 @@ changeButtonThree.onclick = function(){
 
     let randUpComingTrailer = upComingTrailerArray[randInt]; 
 
-    firstUpcomingTrailer.src = randUpComingTrailer
+    firstupComingTrailer.src = randUpComingTrailer
 }
 changeButton.onclick = function(){ 
  let firstVideo = videoDiv.children[0]; 

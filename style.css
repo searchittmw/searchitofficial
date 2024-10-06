@@ -15,7 +15,7 @@ body
    padding: 10px; 
    text-transform: uppercase; 
    font-family: sans-serif; 
-   color: white; 
+   color:rgb(83, 117, 54); 
    display: flex; 
    justify-content: space-evenly; 
    text-align: center; 
@@ -23,11 +23,11 @@ body
 }
 
 a { 
-   color: white ; 
+   color: rgb(255, 255, 255); 
    text-decoration: none; 
 }
 .colorNavyBlue {
-   color: rgb(6, 2, 72)
+   color: rgb(6, 2, 72);
 }
 
 #title {
@@ -55,11 +55,11 @@ color: white;
 #aboutUs { 
    padding: 40px;
    height: 570px; 
-   background-color: rgb(102, 172, 197); 
+   background-color:rgb(102, 172, 197); 
    background-size: cover; 
    /* display: inline-block;  */
    justify-content: space-between; 
-   color: rgb(3, 0, 0);  
+   color: rgb(255, 255, 255);  
    font-family: sans-serif; 
    text-align: center; 
    align-items: center;
@@ -86,8 +86,14 @@ h4{
    font-size: 40px; 
    color: rgb(102, 172, 197); 
 }
-
-p { 
+p{
+   color: white
+}
+.link { 
+   font-size: 10px;
+   text-transform: uppercase;
+   font-family: sans-serif;
+   text-align: center ;
    color: white; 
    /* margin-right: 90px; 
    margin-left: 90px;  */
@@ -101,7 +107,7 @@ p {
 #randMusicInFilm { 
    /* width: max(100%) ;  */
    height: 650px; 
-   background-color: #060248; 
+   background-color: #000000; 
    background-size: cover;
    align-items: center; 
   padding: 40px; 
@@ -132,7 +138,7 @@ p {
 
 #randTrailer { 
    background-color: black; 
-   height: 700px;
+   height: 2200px;
    align-items: center; 
    padding: 40px; 
    margin-right: 0px; 
@@ -213,7 +219,7 @@ h5 {
 }
 
 #upcomingFilms { 
-   background-color: black; 
+   background-color: rgb(6, 2, 72); 
    padding: 40px; 
    height: 1900px; 
 }
@@ -225,8 +231,9 @@ h5 {
 }
 
 #freeOnYoutube { 
+   background-color: black;
 padding: 40px;  
-   height: 650px; 
+   height: 1100px; 
    margin-right: 20px; 
    align-items: center; 
    margin-right: 0px; 
@@ -239,6 +246,11 @@ padding: 40px;
    text-transform: uppercase;
    
 }
+.imagesize {
+   width: 200px;
+   height: 270px;
+}
+
 
 
 /* @media (width=430px) {
@@ -291,7 +303,7 @@ padding: 40px;
 
   }
   #randTrailer { 
-   height: 1000px; 
+   height: 3300px; 
 }
 #randMusicInFilm { 
    height: 790px; 
@@ -302,6 +314,9 @@ padding: 40px;
 .imagesize {
    width: 200px;
    height: 270px;
+}
+#freeOnYoutube {
+   height: 3800px;
 }
 }
 
