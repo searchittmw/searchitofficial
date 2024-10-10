@@ -55,7 +55,7 @@ color: white;
 #aboutUs { 
    padding: 40px;
    height: 570px; 
-   background-color:rgb(102, 172, 197); 
+   background-color:#66acc5; 
    background-size: cover; 
    /* display: inline-block;  */
    justify-content: space-between; 
@@ -270,7 +270,7 @@ padding: 40px;
 
 @media (max-width: 1030px) { 
    h1{
-       font-size: 100px;
+       font-size: 90px;
    }
    .paragraph {
        font-size: 14px; 

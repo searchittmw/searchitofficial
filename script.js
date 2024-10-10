@@ -39,14 +39,13 @@ let firstFamilyTrailer = familyTrailerDiv.children[0];
 let firstAdventureTrailer = adventureTrailerDiv.children[0];
 
 let adventureTrailerArray =[
-"https://www.youtube.com/embed/EAzGXqJSDJ8?si=Oq10jl7uDy2iVb-4", // catching fire
-"https://www.youtube.com/embed/CbX_SIz_9fk?si=l2b7gjRVCfL0fAsa", // transformers
 "https://www.youtube.com/embed/LLAaW1EgyY8?si=rC8ZzK6_OzuDc7hh", // harry potter
-"https://www.youtube.com/embed/fAIX12F6958?si=rAqNw6M7Kcc91saK", // bumblebee
-"https://www.youtube.com/embed/RDE6Uz73A7g?si=K_KGSkmCO9P6ipcE", // hungergames songbirds and snakes
-"https://www.youtube.com/embed/sutgWjz10sM?si=MIPVBeAO8KK343V3", // divergent
 "https://www.youtube.com/embed/t-0XuYxh67w?si=EIqAy0iznnS8wkRT", // super eight
 "https://www.youtube.com/embed/fSpZU7KAGfk?si=jFjcqyqPUQB3stHz", // the mummy
+"https://www.youtube.com/embed/QD6cy4PBQPI?si=NVzgohJQmBEkBOrQ", // secret life of walter schimity
+"https://www.youtube.com/embed/VZtQH_cwTOw?si=p_u6-WwtxOZWOvYG", // the fall
+"https://www.youtube.com/embed/C1M-vhN8lsg?si=jPVHPys5HrukSz7R", // the adventure of Baron Munchausen
+"https://www.youtube.com/embed/_eOI3AamSm8?si=xcHs5XTeRWyEVPzk", // moonrise kingdom
 
 ]
 
@@ -56,7 +55,7 @@ let familyTrailerArray = [
 "https://www.youtube.com/embed/5_EVHeNEIJY?si=_yoX2xCOLDhLdvGT", // singing in the rain
 "https://www.youtube.com/embed/oIPq9Kp-9A0?si=QRvrD5kpuzFvcaW4", // cat in the hat
 "https://www.youtube.com/embed/ooJJX3R42WM?si=4gWY1EbTjjPqJ08g", // shrek
-"https://www.youtube.com/embed/E6sHWQcCUsQ?si=56wPdpdMGOKFZfQy", // barbie
+// "https://www.youtube.com/embed/E6sHWQcCUsQ?si=56wPdpdMGOKFZfQy", // barbie
 "https://www.youtube.com/embed/otNh9bTjXWg?si=DI-Yhf13YI9PSmnx", // wonka
 "https://www.youtube.com/embed/p6JAQ2aoXm0?si=Q0uT4uo0jlP1PgiO", // charlie and the choclate factory
 ]
@@ -67,6 +66,7 @@ let dramaTrailerArray = [
 "https://www.youtube.com/embed/bLvqoHBptjg?si=OYBsyfxMkzq_DhsQ", // forest gump
 "https://www.youtube.com/embed/7BWWWQzTpNU?si=1W-lmgeC4C9fMKaP", // passengers
 "https://www.youtube.com/embed/ne6p6MfLBxc?si=vb8SjylGKZJbnclp", // her
+
 
 ]
 
@@ -79,13 +79,11 @@ let comedyTrailerArray = [
 "https://www.youtube.com/embed/7wd5KEaOtm4?si=f09WRv1i4H3tdmlF", // scott pilgrim vs the world
 "https://www.youtube.com/embed/VjGJm3wV5-I?si=EzDrYMeEjgxB0YEL", // booksmart
 "https://www.youtube.com/embed/_j5hwooOHVE?si=_GBanSjGAkGtdOdX", // the hustle
-
+"https://www.youtube.com/embed/7sULyUPHAOA?si=oEBGIcT4OSsIV56r", // amsterdam
 
 ]
 
 let thrillerTrailerArray = [
-"https://www.youtube.com/embed/XJMuhwVlca4?si=fu0_1c5RyFJMuA2T", // furiosa
-"https://www.youtube.com/embed/7sULyUPHAOA?si=oEBGIcT4OSsIV56r", // amsterdam
 "https://www.youtube.com/embed/KBiOF3y1W0Y?si=uori8N4seOljJGPS", // drive
 "https://www.youtube.com/embed/zpmAR4oRUXg?si=w4jisXwHnboUf_6e", // red Sparrow
 "https://www.youtube.com/embed/sk37tj2OdA4?si=SSEePmdVZGc5wIUG", // dont worry darling
@@ -96,13 +94,19 @@ let thrillerTrailerArray = [
 ]
 let actionTrailerArray = [
     "https://www.youtube.com/embed/aDyQxtg0V2w?si=xJDg1-h-bPbxji3o", // Civil War
+    "https://www.youtube.com/embed/EAzGXqJSDJ8?si=Oq10jl7uDy2iVb-4", // catching fire
+    "https://www.youtube.com/embed/CbX_SIz_9fk?si=l2b7gjRVCfL0fAsa", // transformers
+    "https://www.youtube.com/embed/XJMuhwVlca4?si=fu0_1c5RyFJMuA2T", // furiosa
     "https://www.youtube.com/embed/gCcx85zbxz4?si=zs3F1DSOwEZ71Mg4", // Blade Runner
     // "https://www.youtube.com/embed/2LqzF5WauAw?si=H6UA58O4wXjsRPzh", // Interstellar
     "https://www.youtube.com/embed/_PZpmTj1Q8Q?si=g_p1lQA07q1drnzr", // The dark night
-    "https://www.youtube.com/embed/XtFI7SNtVpY?si=xD0blk9AE_qL2FCE", // kingdom of the planet of the apes
+    // "https://www.youtube.com/embed/XtFI7SNtVpY?si=xD0blk9AE_qL2FCE", // kingdom of the planet of the apes
     "https://www.youtube.com/embed/3cxixDgHUYw?si=aHTgmyoWTCfmHfQI", //justice league
+    "https://www.youtube.com/embed/RDE6Uz73A7g?si=K_KGSkmCO9P6ipcE", // hungergames songbirds and snakes
     "https://www.youtube.com/embed/x_me3xsvDgk?si=3D6Nwhg9pgq5VqUN", // enternals
     "https://www.youtube.com/embed/KVu3gS7iJu4?si=_2JcYRMyiHFscWGO", // man of steel
+    "https://www.youtube.com/embed/fAIX12F6958?si=rAqNw6M7Kcc91saK", // bumblebee
+"https://www.youtube.com/embed/sutgWjz10sM?si=MIPVBeAO8KK343V3", // divergent 
 
 
 ]
@@ -131,27 +135,28 @@ let musicInFilmVideosArray =[
 ]
 
 let trailerArray = [
-    "https://www.youtube.com/embed/zrMnGDzmyI0?si=4vur7z0dIQ506UBm", 
-    "https://www.youtube.com/embed/ZLO4X6UI8OY?si=4OtFEuEh_I_ZOYE9", 
-    "https://www.youtube.com/embed/0pdqf4P9MB8?si=_7OcWOITE-7TU3fP", 
-    "https://www.youtube.com/embed/E_Ci-pAL4eE?si=_EGwRAMA54xKQ7Ep", 
-"https://www.youtube.com/embed/OiTiKOy59o4?si=k223AtH1tziYiyDU", 
-"https://www.youtube.com/embed/AST2-4db4ic?si=8MGKqGfms3qLFqtR", 
-"https://www.youtube.com/embed/LjLamj-b0I8?si=pJ_0DZWVWcSwI6r5", 
-"https://www.youtube.com/embed/k98Afd7Nf3Y?si=PhELJNgQNClQbsGO", 
-"https://www.youtube.com/embed/x0XDEhP4MQs?si=wQ5y8E5OqUzOGGBl", 
-"https://www.youtube.com/embed/7wd5KEaOtm4?si=_bD86et5lgAZaSvg", 
-"https://www.youtube.com/embed/Z9AYPxH5NTM?si=CExnYB4OpSCSkZB9", 
-"https://www.youtube.com/embed/P15S6ND8kbQ?si=g-wRFUXohBrEahGj", 
-"https://www.youtube.com/embed/hEJnMQG9ev8?si=V7ENGp_hHyBaTRTC", 
-"https://www.youtube.com/embed/XuDwndGaCFo?si=lE8G4m73BMhbcajQ" , 
-"https://www.youtube.com/embed/sSmBIIGZoGI?si=kTlbhqjNt6mVNpVM" , 
-"https://www.youtube.com/embed/hCBWOfCgRh4?si=ix2kFf3yIsSIJSTw", 
+    "https://www.youtube.com/embed/zrMnGDzmyI0?si=4vur7z0dIQ506UBm", // wildflower
+    "https://www.youtube.com/embed/ZLO4X6UI8OY?si=4OtFEuEh_I_ZOYE9", // arrival
+    "https://www.youtube.com/embed/0pdqf4P9MB8?si=_7OcWOITE-7TU3fP", // la la land
+    "https://www.youtube.com/embed/E_Ci-pAL4eE?si=_EGwRAMA54xKQ7Ep", // gravity
+"https://www.youtube.com/embed/OiTiKOy59o4?si=k223AtH1tziYiyDU", // gravity
+"https://www.youtube.com/embed/AST2-4db4ic?si=8MGKqGfms3qLFqtR", // little women
+"https://www.youtube.com/embed/LjLamj-b0I8?si=pJ_0DZWVWcSwI6r5", // alien
+"https://www.youtube.com/embed/k98Afd7Nf3Y?si=PhELJNgQNClQbsGO", // marcel the shell
+"https://www.youtube.com/embed/x0XDEhP4MQs?si=wQ5y8E5OqUzOGGBl", // alien romulous
+"https://www.youtube.com/embed/7wd5KEaOtm4?si=_bD86et5lgAZaSvg", // scott pilgrim
+"https://www.youtube.com/embed/Z9AYPxH5NTM?si=CExnYB4OpSCSkZB9", // call me by your name
+"https://www.youtube.com/embed/P15S6ND8kbQ?si=g-wRFUXohBrEahGj", // no hard feelings
+"https://www.youtube.com/embed/hEJnMQG9ev8?si=V7ENGp_hHyBaTRTC", // mad max fury road
+"https://www.youtube.com/embed/XuDwndGaCFo?si=lE8G4m73BMhbcajQ" , // stone of heart
+"https://www.youtube.com/embed/sSmBIIGZoGI?si=kTlbhqjNt6mVNpVM" , // dont worry darling
+"https://www.youtube.com/embed/hCBWOfCgRh4?si=ix2kFf3yIsSIJSTw", // fallout
 "https://www.youtube.com/embed/c_7i57oQZ0g?si=oXyV9-88Bpw7qLEY", // bottoms
-"https://www.youtube.com/embed/lpnW8atCkkg?si=QzHeALiHmYHIp169" , // supw eight
-"https://www.youtube.com/embed/TLnQXsKn5-E?si=9XmxOJDy2Ui2r6QI" , // war of the worlds 
-"https://www.youtube.com/embed/CH_OHepiHJw?si=JQjeJDkOERuOR21w", // harriet 
-"https://www.youtube.com/embed/Pj0wz7zu3Ms?si=8qCfeUSvIm6YjkhT" , // rednotice
+// "https://www.youtube.com/embed/lpnW8atCkkg?si=QzHeALiHmYHIp169" , // supw eight
+// "https://www.youtube.com/embed/TLnQXsKn5-E?si=9XmxOJDy2Ui2r6QI" , // war of the worlds 
+// "https://www.youtube.com/embed/CH_OHepiHJw?si=JQjeJDkOERuOR21w", // harriet 
+// "https://www.youtube.com/embed/Pj0wz7zu3Ms?si=8qCfeUSvIm6YjkhT" , // rednotice
+"https://www.youtube.com/embed/ZLO4X6UI8OY?si=4OtFEuEh_I_ZOYE9", // arriva room
 ]; 
 
 let upComingTrailerArray = [ 
