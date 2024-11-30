@@ -124,19 +124,19 @@ let rectangleEditArray = [
 ]
 
 let musicInFilmVideosArray =[
-    "https://www.youtube.com/embed/92w5ozZgzG0?si=7ZS0fg_8adTg3HFs",
-"https://www.youtube.com/embed/rkmQWyK2h3c?si=pSHrhxu6wAaBzBXQ",
-"https://www.youtube.com/embed/w5SRH6Ac1LI?si=7kP8hVC-T4136vms",
-"https://www.youtube.com/embed/vZPzZ_NEwEQ?si=_6PqFAYmZdBOTCGW",
-"https://www.youtube.com/embed/tEM5jJWfKFY?si=KgjknxpeM-7Ou4ca", 
-"https://www.youtube.com/embed/tSc-pkW4GHE?si=g1NPUczQclFNovD3", 
-"https://www.youtube.com/embed/j9Vit2vq22M?si=tGyZw1K1n7a5cncN", 
-"https://www.youtube.com/embed/OXQ8oI6B6T0?si=NeNoLF_BYJnRD062",
-"https://www.youtube.com/embed/26NOGYsTWOI?si=U4GSYAJdXz7MW1CX" , //maneater 
-"https://www.youtube.com/embed/A_HjMIjzyMU?si=nVeDbNrX_H1-uvP_" , // i need ahero 
-"https://www.youtube.com/embed/pyMU8O2B2Vs?si=b-EXv54dmixTDflt" , // good moring 
-"https://www.youtube.com/embed/1lDc2Cce7fc?si=l3Kpr_H3KgfV8nIP" , // nothing you can take from me
-"https://www.youtube.com/embed/YKLT6_7Y1nc?si=Uf1Ghi2H-Gg8kfKx", // great show
+    "https://www.youtube.com/embed/92w5ozZgzG0?si=7ZS0fg_8adTg3HFs", // Shrek 2 - Snow White Baracuda
+"https://www.youtube.com/embed/rkmQWyK2h3c?si=pSHrhxu6wAaBzBXQ", // Pitch Perfect 3 - Toxic
+"https://www.youtube.com/embed/w5SRH6Ac1LI?si=7kP8hVC-T4136vms", // La La Land - A lovely Night
+"https://www.youtube.com/embed/vZPzZ_NEwEQ?si=_6PqFAYmZdBOTCGW", // The Hunger Game - Hanging Tree
+// "https://www.youtube.com/embed/tEM5jJWfKFY?si=KgjknxpeM-7Ou4ca", 
+// "https://www.youtube.com/embed/tSc-pkW4GHE?si=g1NPUczQclFNovD3", 
+"https://www.youtube.com/embed/j9Vit2vq22M?si=tGyZw1K1n7a5cncN",  // Toy Story 2 - When Somebody Loved Me
+"https://www.youtube.com/embed/OXQ8oI6B6T0?si=NeNoLF_BYJnRD062", // Singing In The Rain - All I Do Is Dream Of You
+"https://www.youtube.com/embed/26NOGYsTWOI?si=U4GSYAJdXz7MW1CX" , //  No Hard Feelings - Maneater 
+"https://www.youtube.com/embed/A_HjMIjzyMU?si=nVeDbNrX_H1-uvP_" , // Shrek - I need A Hero
+"https://www.youtube.com/embed/pyMU8O2B2Vs?si=b-EXv54dmixTDflt" , // Singing In The Rain - good moring 
+// "https://www.youtube.com/embed/1lDc2Cce7fc?si=l3Kpr_H3KgfV8nIP" , // nothing you can take from me
+// "https://www.youtube.com/embed/YKLT6_7Y1nc?si=Uf1Ghi2H-Gg8kfKx", // great show
 
 ]
 
@@ -200,6 +200,7 @@ let MovieEditArray = [
 // "https://www.youtube.com/embed/GrFJ7OLQrLE?si=gb9f7lY3O6kvoE-j" , // harry potter
 // "https://www.youtube.com/embed/HThvXXj3Iqc?si=JtvbILNHbRsVvA-_" , // grown ups
 // "https://www.youtube.com/embed/vMbtSva7oLE?si=NfBukLstdrk-uD9B" , // ted 
+"https://www.youtube.com/embed/58R8GY_mqN4?si=s8ipGgVsR8FA59wj", // 1917
 ]
 
 let spotifySongArray = [
