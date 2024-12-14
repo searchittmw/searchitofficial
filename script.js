@@ -10,6 +10,8 @@ let changeButtonTen = document.getElementById("change_buttonten");
 let changeButtonEleven = document.getElementById("change_buttoneleven");
 let changeButtonTwelve = document.getElementById("change_buttontwelve");
 let changeButtonThirteenth = document.getElementById("change_buttonthirteenth");
+let changeButtonFourteenth = document.getElementById("change_buttonfourteenth");
+let changeButtonFifthteenth = document.getElementById("change_buttonfifthteenth")
 
 
 let videoDiv = document.getElementById ("video_div");
@@ -24,6 +26,8 @@ let comedyTrailerDiv = document.getElementById("comedyTrailer_div");
 let dramaTrailerDiv = document.getElementById("dramaTrailer_div");
 let familyTrailerDiv = document.getElementById("familyTrailer_div");
 let adventureTrailerDiv = document.getElementById("adventureTrailer_div");
+let spotifySongDivTwo = document.getElementById("spotifySong_divtwo"); 
+let videoDivTwo = document.getElementById("video_divtwo");
 
 let firstVideo = videoDiv.children[0]; 
 let firstTrailer = trailerDiv.children[0]; 
@@ -87,7 +91,7 @@ let comedyTrailerArray = [
 ]
 
 let thrillerTrailerArray = [
-    "https://www.youtube.com/embed/ODUdpwddTQk?si=JL0FgzIphgcHNhPW", // woman of the hour
+    //"https://www.youtube.com/embed/ODUdpwddTQk?si=JL0FgzIphgcHNhPW", // woman of the hour
 "https://www.youtube.com/embed/KBiOF3y1W0Y?si=uori8N4seOljJGPS", // drive
 "https://www.youtube.com/embed/zpmAR4oRUXg?si=w4jisXwHnboUf_6e", // red Sparrow
 "https://www.youtube.com/embed/sk37tj2OdA4?si=SSEePmdVZGc5wIUG", // dont worry darling
@@ -324,5 +328,25 @@ changeButtonFive.onclick = function(){
 
     firstSpotifySong.src = randSpotifySong
 }
+
+changeButtonFourteenth.onclick = function(){ 
+    let firstSpotifySong = spotifySongDivTwo.children[0]; 
+
+    let randInt = Math.floor(Math.random()* spotifySongArray.length);
+
+    let randSpotifySong = spotifySongArray[randInt]; 
+
+    firstSpotifySong.src = randSpotifySong
+}
+
+changeButtonFifthteenth.onclick = function(){ 
+    let firstVideo = videoDivTwo.children[0]; 
+   
+    let randInt = Math.floor (Math.random() * musicInFilmVideosArray.length)
+    
+   let randMusicInFilmVideo = musicInFilmVideosArray[randInt]
+   
+   firstVideo.src = randMusicInFilmVideo 
+   }
 
 
