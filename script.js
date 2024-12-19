@@ -141,7 +141,17 @@ let musicInFilmVideosArray =[
 "https://www.youtube.com/embed/pyMU8O2B2Vs?si=b-EXv54dmixTDflt" , // Singing In The Rain - good moring 
 // "https://www.youtube.com/embed/1lDc2Cce7fc?si=l3Kpr_H3KgfV8nIP" , // nothing you can take from me
 // "https://www.youtube.com/embed/YKLT6_7Y1nc?si=Uf1Ghi2H-Gg8kfKx", // great show
-
+//"https://www.youtube.com/embed/ZZY-Ytrw2co?si=WInyYxyNPlUA8qMI", // whiplash
+"https://www.youtube.com/embed/mxZis6_80PM?si=pqEqGqPjQvLqfFfC", // hit the road jack
+"https://www.youtube.com/embed/t7O5c55IOhQ?si=020wJ3uqY1Nq_o5b", // identity thief
+"https://www.youtube.com/embed/fZOOR2ivuNs?si=JgIXcnWBxAhkUqSN", // momma mia
+"https://www.youtube.com/embed/vhqrCERDL9c?si=GXsfTj4FylyE1vL_", // bri larson black sheep
+"https://www.youtube.com/embed/bMRosz1JZOA?si=g1ppGU_npfQ1LBXk", // im still standing
+"https://www.youtube.com/embed/AgLSQPuS8xs?si=T6ZCCyRCEmvzBZTm", // cheap thrills
+"https://www.youtube.com/embed/aBA4ABr4WcI?si=QUwgSR3ZVhrfzBdS", // all star
+"https://www.youtube.com/embed/agBcarMBuN4?si=gazmYUnMetFCUkmg", // afro circus
+"https://www.youtube.com/embed/AyBx_Mu4LFo?si=Y5FaA8-pcimtRnu-", // i dont like it, i love it 
+"https://www.youtube.com/embed/S7iRfeiRWbM?si=0AhMQuGKAT87Z_Cd", // just the way you are
 ]
 
 let trailerArray = [
@@ -177,18 +187,18 @@ let upComingTrailerArray = [
     "https://www.youtube.com/embed/4h7j_EcZ5fU?si=92J2WoGIHg1rW_CE", // emilia perez 
  "https://www.youtube.com/embed/_OKAwz2MsJs?si=kXrW6ZNJV5V9YZhO", // Joker: Foilie a Duex
  "https://www.youtube.com/embed/As-vKW4ZboU?si=elJixJvYoPKKp-XN" , // Beetle Juice Beetle Juice
- 
  "https://www.youtube.com/embed/qkgkUCqEum4?si=SQWK0TMMqT5eaCrZ", // Moana two
  "https://www.youtube.com/embed/MH02yagHaNw?si=ew5OREilxKD36wGs", // we live in time
  "https://www.youtube.com/embed/5jXLBJguAl4?si=TNP3uxio664F_jdu" , // the good half 
- 
  "https://www.youtube.com/embed/I_id-SkGU2k?si=k4Ej3mba08FM2TUo" , // here 
  "https://www.youtube.com/embed/TbiPcMCz0Ek?si=w8LMITOlzsuVl5RL" ,// snow white
  "https://www.youtube.com/embed/7Bc6trBc1kc?si=PxPRaf-oV3byXAX-" , // piece by piece
  "https://www.youtube.com/embed/67vbA5ZJdKQ?si=VZfgRTZEt_W5KEFh" , // the wild robot
-
-
-
+ "https://www.youtube.com/embed/Oa823lY1sTs?si=7oi3pr8LlCXv2rKI", // y2k
+ "https://www.youtube.com/embed/lMXh6vjiZrI?si=lu3GUCw6G_rPTpzh", // mufasa
+ "https://www.youtube.com/embed/uPzOyzsnmio?si=6M9VToYyCtdvOJPe", // karate kid lengends
+ "https://www.youtube.com/embed/luYbdj3Zulw?si=8jS6esGYz5GgsGP7", // mickey 17
+ ="https://www.youtube.com/embed/-PyOIlJEdqA?si=8hM9IYu_hPKd93RS", // novcaine
 ]; 
 
 let MovieEditArray = [
@@ -205,6 +215,14 @@ let MovieEditArray = [
 // "https://www.youtube.com/embed/HThvXXj3Iqc?si=JtvbILNHbRsVvA-_" , // grown ups
 // "https://www.youtube.com/embed/vMbtSva7oLE?si=NfBukLstdrk-uD9B" , // ted 
 "https://www.youtube.com/embed/58R8GY_mqN4?si=s8ipGgVsR8FA59wj", // 1917
+//"https://www.youtube.com/embed/UnKEGwKn_f4?si=LKFqiIbJZ9gY9qrL", // whiplash
+"https://www.youtube.com/embed/_sxabTD003M?si=BfOduGrJhVIv4_WI", // whiplash
+"https://www.youtube.com/embed/Prvd-PQcYC4?si=7Jf5ilRpHHXB9v7u" , // the whale
+"https://www.youtube.com/embed/iqyEGVFF3iM?si=iq92k6ah7G849qFE", // fight club
+//"https://www.youtube.com/embed/1EU-5ki9vPE?si=yCsCcYK2VK41u5KF", // fight club
+//"https://www.youtube.com/embed/CFLFsT9QIqU?si=5woU4QyrSoJFV7kM", // fight club
+// "https://www.youtube.com/embed/LkB8pEp5vv4?si=-08S7tFE7cHX9RlH", // hanvover
+//"https://www.youtube.com/embed/kYNTrRVHNmk?si=1VaxBBOQ4A8afSW4", // 500 days of summer
 ]
 
 let spotifySongArray = [
@@ -230,6 +248,8 @@ let spotifySongArray = [
 "https://open.spotify.com/embed/track/0Gl5s8IhMmQE5YQwM8Qx1J?utm_source=generator", // never enough
 "https://open.spotify.com/embed/track/74wySERHHxB8Ul9A0CNBla?utm_source=generator", /// lay all your love on me momma mia
 "https://open.spotify.com/embed/track/12j5ByuhjK6vsb0vJS1cwM?utm_source=generator" , // desafinado
+"https://open.spotify.com/embed/track/2xqar3ld7feKeOp1aGbmXw?utm_source=generator&theme=0", // whats this?
+"https://open.spotify.com/embed/track/683hRieVmYdAhVA1DkjSAk?utm_source=generator", // space jam
 ]
 
 changeButtonThirteenth.onclick = function(){
