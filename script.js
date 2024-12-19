@@ -197,8 +197,10 @@ let upComingTrailerArray = [
  "https://www.youtube.com/embed/Oa823lY1sTs?si=7oi3pr8LlCXv2rKI", // y2k
  "https://www.youtube.com/embed/lMXh6vjiZrI?si=lu3GUCw6G_rPTpzh", // mufasa
  "https://www.youtube.com/embed/uPzOyzsnmio?si=6M9VToYyCtdvOJPe", // karate kid lengends
- "https://www.youtube.com/embed/luYbdj3Zulw?si=8jS6esGYz5GgsGP7", // mickey 17
- ="https://www.youtube.com/embed/-PyOIlJEdqA?si=8hM9IYu_hPKd93RS", // novcaine
+ //"https://www.youtube.com/embed/luYbdj3Zulw?si=8jS6esGYz5GgsGP7", // mickey 17
+ "https://www.youtube.com/embed/-PyOIlJEdqA?si=8hM9IYu_hPKd93RS", // novcaine
+ "https://www.youtube.com/embed/uhUht6vAsMY?si=FQtmRfx5xKtS13fO", //new superman
+ "https://www.youtube.com/embed/osYpGSz_0i4?si=ILQjAnRLZ-PGgI3-", // mickey 17
 ]; 
 
 let MovieEditArray = [
