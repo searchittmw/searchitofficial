@@ -4,12 +4,12 @@ body
    margin-right: 0px;
    margin-left: 0px;
    padding: 0px; 
-   background-color:rgb(6, 2, 72);
+   background-color:rgb(0, 0, 0);
 }
 
 #nav 
 {
-   background-color: rgb(6, 2, 72);
+   background-color: rgb(0, 0, 0);
    font-size: 11px; 
    padding: 10px; 
    text-transform: uppercase; 
@@ -25,50 +25,40 @@ a {
    text-decoration: none; 
 }
 .colorNavyBlue {
-   color: rgb(6, 2, 72);
+   color:rgb(6, 2, 72);
 }
 
 #title {
-   height:700px;
-  background-image: url("images/background.png");
+   height:500px;
+  background-color: black;
    background-size: cover; 
-   display: flex; 
-   text-align: center;
-   align-items: center; 
-   padding: 0px;
-   line-height: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .column {
    flex-direction: column;
 }
 
 h1{ 
-   padding: 40px;
-   display: flex;
-   align-items: center;
-   text-align: center ;
    justify-content: space-between;
    font-size: 120px; 
    font-weight: bold; 
    font-family: impact; 
    text-transform: uppercase;
-color: white; 
-margin-top: 0px;
+color: rgb(255, 255, 255); 
 
 }
 
 #aboutUs { 
-   padding: 40px;
-   height: 570px; 
-   background-color:#66acc5; 
+   padding: 50px;
+   height: 380px; 
+   background-color:rgb(6, 2, 72); 
    background-size: cover; 
-   justify-content: space-between; 
-   color: rgb(255, 255, 255);  
+   justify-content: space-between;
    font-family: sans-serif; 
    text-align: center; 
    align-items: center;
-   margin-right: 0px;
-   text-decoration: none;
 }
 .underline {
    color: white;
@@ -78,16 +68,16 @@ margin-top: 0px;
    padding: 0px;
 }
 .paragraph { 
-   width: 500px;
-   height:400px;
-   display: inline-block;
-   text-align: center;
-   align-items: center;
    font-size: 20px; 
-   color:rgb(6, 2, 72);
+   color:whitesmoke;
    text-transform: uppercase;
 
 
+}
+.introVideo {
+   height: 350px;
+   justify-content: center;
+   text-align: center;
 }
 h4{ 
    align-items: center; 
@@ -97,7 +87,7 @@ h4{
    color: rgb(102, 172, 197); 
 }
 p{
-   color: white
+   color: rgb(255, 255, 255);
 }
 .link { 
    font-size: 10px;
@@ -140,7 +130,7 @@ p{
 
 #randTrailer { 
    background-color: black; 
-   height: 2200px;
+   height: 2000px;
    align-items: center; 
    padding: 40px; 
    margin-right: 0px; 
@@ -168,20 +158,20 @@ align-items: flex-start;
 
 #randMovieEdit { 
    align-items: center;
-   height: 650px; 
-   background-color: rgb(6, 2, 72); 
+   height: 480px; 
+   background-color: rgb(0, 0, 0); 
    padding: 40px;
    margin-right: 0px; 
 }
 
 button { 
-   color: white; 
+   color: rgb(255, 255, 255); 
    padding: 8px; 
    border-radius: 8%;
    font-family: sans-serif; 
    font-size: 10px; 
    border: none; 
-   background-color: rgb(102, 172, 197); 
+   background-color: rgb(6, 2, 72); 
    text-transform: uppercase ;
    font-weight: bold;
    height: 30px; 
@@ -221,7 +211,7 @@ h5 {
 }
 
 #upcomingFilms { 
-   background-color: rgb(6, 2, 72); 
+   background-color: rgb(0, 0, 0); 
    padding: 40px; 
    height: 1900px; 
 }
@@ -253,14 +243,24 @@ padding: 40px;
    height: 270px;
 }
 
+footer{
+color: white;
+font-family: sans-serif;
+padding-left: 50px;
+height: 70px;
+font-size: 14px;
+text-transform: uppercase;
+
+}
+
 
 @media (max-width: 1030px) { 
    h1{
        font-size: 120px;
    }
    .paragraph {
-       font-size: 14px; 
-       width: 320px;
+       font-size: 20px; 
+    
    }
    .sizeone{
        width: 340px;
@@ -282,10 +282,10 @@ padding: 40px;
        width: 50%; 
    }
    #aboutUs{ 
-       height:670px; 
+       height:420px; 
    }
   #randMovieEdit{ 
-   height: 1450px; 
+   height: 1250px; 
 
   }
   #randTrailer { 
@@ -306,6 +306,12 @@ padding: 40px;
 }
 }
 
+@media (max-width: 730px) {
+   #aboutUs{ 
+      height:580px; 
+   }
+}
+
   @media (max-width: 530px) {
    h1{
        font-size: 100px; 
@@ -316,7 +322,13 @@ padding: 40px;
    p{
        font-size: 14px; 
    }
- 
+   .paragraph {
+      font-size: 14px; 
+   
+  }
+  #aboutUs{ 
+   height:420px; 
+}
    .card{ 
        width: 80%; 
    }

@@ -3,7 +3,7 @@ let changeButtonTwo = document.getElementById("change_buttontwo");
 let changeButtonThree = document.getElementById("change_buttonthree"); 
 let changeButtonFour = document.getElementById("change_buttonfour");
 let changeButtonFive = document.getElementById("change_buttonfive");
-let changeButtonSeven = document.getElementById("change_buttonseven");
+/*let changeButtonSeven = document.getElementById("change_buttonseven");*/
 let changeButtonEight = document.getElementById("change_buttoneight");
 let changeButtonNine = document.getElementById("change_buttonnine");
 let changeButtonTen = document.getElementById("change_buttonten");
@@ -50,6 +50,7 @@ let adventureTrailerArray =[
 "https://www.youtube.com/embed/VZtQH_cwTOw?si=p_u6-WwtxOZWOvYG", // the fall
 "https://www.youtube.com/embed/C1M-vhN8lsg?si=jPVHPys5HrukSz7R", // the adventure of Baron Munchausen
 "https://www.youtube.com/embed/_eOI3AamSm8?si=xcHs5XTeRWyEVPzk", // moonrise kingdom
+"https://www.youtube.com/embed/usEkWtuNn-w?si=FB19bQDt9QuTClQf", // chronicles of naria
 
 ]
 
@@ -120,12 +121,12 @@ let actionTrailerArray = [
 
 ]
 
-let rectangleEditArray = [
+/*let rectangleEditArray = [
     "itonya.mp4",
     "mencrytoo.mp4",
     "Ilovedancing.mp4",
     "karensmith.mp4",
-]
+]*/
 
 let musicInFilmVideosArray =[
     "https://www.youtube.com/embed/92w5ozZgzG0?si=7ZS0fg_8adTg3HFs", // Shrek 2 - Snow White Baracuda
@@ -152,6 +153,8 @@ let musicInFilmVideosArray =[
 "https://www.youtube.com/embed/agBcarMBuN4?si=gazmYUnMetFCUkmg", // afro circus
 "https://www.youtube.com/embed/AyBx_Mu4LFo?si=Y5FaA8-pcimtRnu-", // i dont like it, i love it 
 "https://www.youtube.com/embed/S7iRfeiRWbM?si=0AhMQuGKAT87Z_Cd", // just the way you are
+"https://www.youtube.com/embed/ql59FpJK4iI?si=o1pMPdQUoye-yw9f", // todo y nada
+"https://www.youtube.com/embed/vM-voEepRyI?si=5lTe3be2hd_4H4um", // el mal
 ]
 
 let trailerArray = [
@@ -184,21 +187,21 @@ let trailerArray = [
 
 let upComingTrailerArray = [ 
     "https://www.youtube.com/embed/PE2YZhcC4NY?si=01S8W-mmh7yt0JJx", // Minecraft
-    "https://www.youtube.com/embed/4h7j_EcZ5fU?si=92J2WoGIHg1rW_CE", // emilia perez 
- "https://www.youtube.com/embed/_OKAwz2MsJs?si=kXrW6ZNJV5V9YZhO", // Joker: Foilie a Duex
- "https://www.youtube.com/embed/As-vKW4ZboU?si=elJixJvYoPKKp-XN" , // Beetle Juice Beetle Juice
- "https://www.youtube.com/embed/qkgkUCqEum4?si=SQWK0TMMqT5eaCrZ", // Moana two
- "https://www.youtube.com/embed/MH02yagHaNw?si=ew5OREilxKD36wGs", // we live in time
- "https://www.youtube.com/embed/5jXLBJguAl4?si=TNP3uxio664F_jdu" , // the good half 
- "https://www.youtube.com/embed/I_id-SkGU2k?si=k4Ej3mba08FM2TUo" , // here 
- "https://www.youtube.com/embed/TbiPcMCz0Ek?si=w8LMITOlzsuVl5RL" ,// snow white
- "https://www.youtube.com/embed/7Bc6trBc1kc?si=PxPRaf-oV3byXAX-" , // piece by piece
- "https://www.youtube.com/embed/67vbA5ZJdKQ?si=VZfgRTZEt_W5KEFh" , // the wild robot
- "https://www.youtube.com/embed/Oa823lY1sTs?si=7oi3pr8LlCXv2rKI", // y2k
- "https://www.youtube.com/embed/lMXh6vjiZrI?si=lu3GUCw6G_rPTpzh", // mufasa
+    // "https://www.youtube.com/embed/4h7j_EcZ5fU?si=92J2WoGIHg1rW_CE", // emilia perez 
+ // "https://www.youtube.com/embed/_OKAwz2MsJs?si=kXrW6ZNJV5V9YZhO", // Joker: Foilie a Duex
+ // "https://www.youtube.com/embed/As-vKW4ZboU?si=elJixJvYoPKKp-XN" , // Beetle Juice Beetle Juice
+ // "https://www.youtube.com/embed/qkgkUCqEum4?si=SQWK0TMMqT5eaCrZ", // Moana two
+ // "https://www.youtube.com/embed/MH02yagHaNw?si=ew5OREilxKD36wGs", // we live in time
+ // "https://www.youtube.com/embed/5jXLBJguAl4?si=TNP3uxio664F_jdu" , // the good half 
+ // "https://www.youtube.com/embed/I_id-SkGU2k?si=k4Ej3mba08FM2TUo" , // here 
+    "https://www.youtube.com/embed/TbiPcMCz0Ek?si=w8LMITOlzsuVl5RL" ,// snow white
+ // "https://www.youtube.com/embed/7Bc6trBc1kc?si=PxPRaf-oV3byXAX-" , // piece by piece
+ // "https://www.youtube.com/embed/67vbA5ZJdKQ?si=VZfgRTZEt_W5KEFh" , // the wild robot
+ // "https://www.youtube.com/embed/Oa823lY1sTs?si=7oi3pr8LlCXv2rKI", // y2k
+ // "https://www.youtube.com/embed/lMXh6vjiZrI?si=lu3GUCw6G_rPTpzh", // mufasa
  "https://www.youtube.com/embed/uPzOyzsnmio?si=6M9VToYyCtdvOJPe", // karate kid lengends
  //"https://www.youtube.com/embed/luYbdj3Zulw?si=8jS6esGYz5GgsGP7", // mickey 17
- "https://www.youtube.com/embed/-PyOIlJEdqA?si=8hM9IYu_hPKd93RS", // novcaine
+ // "https://www.youtube.com/embed/-PyOIlJEdqA?si=8hM9IYu_hPKd93RS", // novcaine
  "https://www.youtube.com/embed/uhUht6vAsMY?si=FQtmRfx5xKtS13fO", //new superman
  "https://www.youtube.com/embed/osYpGSz_0i4?si=ILQjAnRLZ-PGgI3-", // mickey 17
 ]; 
@@ -295,12 +298,12 @@ changeButtonEight.onclick = function(){
     firstActionTrailer.src = randActionTrailer
 }
 
-changeButtonSeven.onclick = function(){
+/*changeButtonSeven.onclick = function(){
     let firstRectangleEdit = rectangleEditDiv.children[0];
     let randInt = Math.floor(Math.random()* rectangleEditArray.length)
     let randRectangleEdit = rectangleEditArray[randInt];
     firstRectangleEdit.src = randRectangleEdit
-}
+}*/
 changeButtonThree.onclick = function(){ 
     let firstupComingTrailer = upComingTrailerDiv.children[0]; 
 
